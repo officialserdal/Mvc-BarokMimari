@@ -12,6 +12,8 @@ namespace Biyografi_Mvc.Models.Sınıflar
         public DbSet<Kiliseler> Kiliseler { get; set; }
         public DbSet<Saraylar> Saraylars { get; set; }
         public DbSet<Kraliçeler> Kraliçelers { get; set; }
+        public DbSet<Krallar> Krallars { get; set; }
+
 
 
 
