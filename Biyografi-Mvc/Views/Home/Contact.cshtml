@@ -1,17 +1,21 @@
-﻿@{
-    ViewBag.Title = "Contact";
+﻿@using Biyografi_Mvc.Models.Sınıflar
+@model List<Heykeller>
+
+
+@{
+
+    ViewBag.Title = "Heykeller";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<div>
+    @foreach (var x in Model)
+    {
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+        <p style="font-size: 16px; color: orangered; font-weight: bold;">@x.Başlik</p>
+        <img src="@x.Fotourl" alt="" style="max-width: 600px; height: auto;" />
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        <p style="font-size: 16px; color: black; font-weight: bold;">@x.Açiklama</p>
+
+
+    }
+
+</div>

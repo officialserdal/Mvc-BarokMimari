@@ -1,5 +1,23 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@using Biyografi_Mvc.Models.Sınıflar
+@model List<Saraylar>
+
+
+@{
+    ViewBag.Title = "Barok Mimarisiyle Yapılan Saraylar";
+
 }
-sayfa hazırlanıyor....
+
+<div>
+    @foreach (var x in Model)
+    {
+
+        <p style="font-size: 16px; color: orangered; font-weight: bold;">@x.SarayAdi</p>
+        <img src="@x.Fotourl" alt="" style="max-width: 600px; height: auto;" />
+
+        <p style="font-size: 16px; color: black; font-weight: bold;">@x.Açiklama</p>
+
+
+    }
+
+</div>
 

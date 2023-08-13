@@ -12,7 +12,8 @@ namespace Biyografi_Mvc.Models.Sınıflar
         public int İD { get; set; }
         public string SarayAdi { get; set; }
         public string Açiklama { get; set; }
+        public string Fotourl { get; set; }
 
-        
+
     }
 }

@@ -6,13 +6,14 @@ using System.Web;
 
 namespace Biyografi_Mvc.Models.Sınıflar
 {
-    public class Kiliseler
+    public class Heykeller
     {
         [Key]
-        public int YapımYılı { get; set; }
-        public string kiliseAdi { get; set; }
+        
+        public string Başlik { get; set; }
        
         public string Açiklama { get; set; }
-        
+        public string Fotourl { get; set; }
+
     }
 }

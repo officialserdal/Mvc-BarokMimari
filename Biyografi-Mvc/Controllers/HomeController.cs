@@ -3,28 +3,37 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.Entity;
+using Biyografi_Mvc.Models.Sınıflar;
 
 namespace Biyografi_Mvc.Controllers
 {
     public class HomeController : Controller
     {
+        Context db = new Context();
         public ActionResult Index()
         {
-            return View();
+            var degerler = db.Saraylars.ToList();
+            return View(degerler);
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            var degerler1 = db.Krallars.ToList();
+            var degerler = db.Kraliçelers.ToList();
+            return View(degerler);
+            
 
-            return View();
+
+
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            var degerler = db.Heykellers.ToList();
+            return View(degerler);
 
-            return View();
+            
         }
     }
 }
