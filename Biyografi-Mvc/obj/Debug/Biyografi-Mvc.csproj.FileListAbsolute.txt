@@ -166,3 +166,5 @@ C:\Users\srdl_\Documents\GitHub\Mvc-BarokMimari\Biyografi-Mvc\obj\Debug\Biyograf
 C:\Users\srdl_\Documents\GitHub\Mvc-BarokMimari\Biyografi-Mvc\obj\Debug\Biyografi-Mvc.pdb
 C:\Users\srdl_\Documents\GitHub\Mvc-BarokMimari\Biyografi-Mvc\obj\Debug\Biyografi_Mvc.Migrations.YourMigrationName.resources
 C:\Users\srdl_\Documents\GitHub\Mvc-BarokMimari\Biyografi-Mvc\obj\Debug\Biyografi-Mvc.csproj.GenerateResource.cache
+C:\Users\srdl_\Documents\GitHub\Mvc-BarokMimari\Biyografi-Mvc\obj\Debug\Biyografi_Mvc.Migrations.InitialUpdate.resources
+C:\Users\srdl_\Documents\GitHub\Mvc-BarokMimari\Biyografi-Mvc\obj\Debug\Biyografi_Mvc.Migrations.InitialUpdate1.resources

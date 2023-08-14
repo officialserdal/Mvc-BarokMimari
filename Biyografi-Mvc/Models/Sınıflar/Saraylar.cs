@@ -15,5 +15,6 @@ namespace Biyografi_Mvc.Models.Sınıflar
         public string Fotourl { get; set; }
 
 
+
     }
 }

@@ -135,6 +135,14 @@
     <Compile Include="Migrations\202308111907019_YourMigrationName.designer.cs">
       <DependentUpon>202308111907019_YourMigrationName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308142028397_InitialUpdate.cs" />
+    <Compile Include="Migrations\202308142028397_InitialUpdate.designer.cs">
+      <DependentUpon>202308142028397_InitialUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308142029229_InitialUpdate1.cs" />
+    <Compile Include="Migrations\202308142029229_InitialUpdate1.designer.cs">
+      <DependentUpon>202308142029229_InitialUpdate1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Sınıflar\Context.cs" />
     <Compile Include="Models\Sınıflar\Kiliseler.cs" />
@@ -199,6 +207,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202308111907019_YourMigrationName.resx">
       <DependentUpon>202308111907019_YourMigrationName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308142028397_InitialUpdate.resx">
+      <DependentUpon>202308142028397_InitialUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308142029229_InitialUpdate1.resx">
+      <DependentUpon>202308142029229_InitialUpdate1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

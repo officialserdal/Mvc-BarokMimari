@@ -19,10 +19,10 @@ namespace Biyografi_Mvc.Controllers
 
         public ActionResult About()
         {
-            var degerler1 = db.Krallars.ToList();
-            var degerler = db.Kraliçelers.ToList();
-            return View(degerler);
-            
+
+
+            return View();
+
 
 
 
