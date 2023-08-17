@@ -3,7 +3,7 @@
 
 
 @{
-    ViewBag.Title = "Barok Mimari Saray Örnekleri";
+    ViewBag.Title = "Barok Mimariyle Saray Örnekleri";
 
 }
 
@@ -11,11 +11,12 @@
     @foreach (var x in Model)
     {
 
-        <p style="font-size: 17px; color: orangered; font-weight: bold;">@x.SarayAdi</p>
+        <p style="font-size: 16px; color: orangered; font-weight: bold;">@x.SarayAdi</p>
+
         <img src="@x.Fotourl" alt="" style="max-width: 600px; height: auto;" />
         <br />
-
-        <p style="font-size: 17px; color: black; font-weight: bold;">@x.Açiklama</p>
+        <br />
+        <p style="font-size: 16px; color: black; font-weight: bold;">@x.Açiklama</p>
 
 
     }
